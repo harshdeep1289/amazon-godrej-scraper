@@ -2,8 +2,8 @@ name: Godrej Scraper
 
 on:
   schedule:
-    # Runs at 11:00 PM IST daily (17:30 UTC = 11:00 PM IST)
-    - cron: '30 17 * * *'
+    # Runs at 10:00 AM IST daily (04:30 UTC = 10:00 AM IST)
+    - cron: '30 4 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
