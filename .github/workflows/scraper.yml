@@ -1,0 +1,42 @@
+name: Godrej Scraper
+
+on:
+  schedule:
+    # Runs at 10:00 PM IST daily (16:30 UTC = 10:00 PM IST)
+    - cron: '30 16 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Run scraper and send email
+      env:
+        EMAIL_SENDER: plansreport@gmail.com
+        EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+        EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+      run: |
+        python3 complete_scraper.py
+    
+    - name: Upload report artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: godrej-report
+        path: |
+          godrej_complete_*.xlsx
+          scraper*.log
+        retention-days: 30

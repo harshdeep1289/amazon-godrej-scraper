@@ -1,0 +1,204 @@
+/Users/harshdeepsingh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+================================================================================
+AMAZON PROTECTION PLANS EXTRACTOR
+================================================================================
+
+✓ Loaded 179 products
+
+Extracting protection plans from 179 products...
+Est. time: ~7.5 minutes (with 2s delays)
+================================================================================
+
+[1/179] B0BVR5JXZG... ✓ 3 plan(s)
+[2/179] B0DR327PJK... ✓ 3 plan(s)
+[3/179] B0BS6XQVD1... ✓ 3 plan(s)
+[4/179] B0BVR5JXZG... ✓ 3 plan(s)
+[5/179] B0C2NHPZJF... ✓ 3 plan(s)
+[6/179] B0F3DBMCBQ... ✓ 3 plan(s)
+[7/179] B0D66Z5SWM... ✓ 3 plan(s)
+[8/179] B08X6ZYWBD... ✓ 3 plan(s)
+[9/179] B0DF7CXS4Q... ✓ 2 plan(s)
+[10/179] B0F38FP3YQ... ✓ 3 plan(s)
+[11/179] B0DQ85T5P3... ✓ 3 plan(s)
+[12/179] B0D8VPSYXL... ✓ 3 plan(s)
+[13/179] B0D53LM2CX... ✓ 3 plan(s)
+[14/179] B0D5D9D82D... ⚠ No plans
+[15/179] B01MF8590A... ✓ 3 plan(s)
+[16/179] B0F8VHRFBX... ✓ 2 plan(s)
+[17/179] B0D671QGG8... ✓ 2 plan(s)
+[18/179] B07R3WXXH5... ✓ 1 plan(s)
+[19/179] B0BXSRCPJ1... ⚠ No plans
+[20/179] B0BS6RFKKL... ✓ 3 plan(s)
+[21/179] B0BS6QR7DF... ⚠ No plans
+[22/179] B0DR2YG4FF... ✓ 3 plan(s)
+[23/179] B0DT6R1WSS... ✓ 3 plan(s)
+[24/179] B0DSVRQJHY... ✓ 3 plan(s)
+[25/179] B0DB63CFRM... ✓ 2 plan(s)
+[26/179] B0CRHS657M... ✓ 3 plan(s)
+[27/179] B0DT4KDFLK... ✓ 2 plan(s)
+[28/179] B08D3WJG5B... ✓ 3 plan(s)
+[29/179] B0DVLGFJBW... ⚠ No plans
+[30/179] B0CWKX99G4... ✓ 3 plan(s)
+[31/179] B0D2QR4SMX... ⚠ No plans
+[32/179] B0D5D986PN... ✓ 3 plan(s)
+[33/179] B0D7Q2Z45T... ⚠ No plans
+[34/179] B0BVRDB47D... ⚠ No plans
+[35/179] B0CYL8CWKX... ✓ 3 plan(s)
+[36/179] B0CRHMKPMZ... ✓ 3 plan(s)
+[37/179] B0D2QWCCC2... ✓ 3 plan(s)
+[38/179] B0D62DRL4C... ⚠ No plans
+[39/179] B0DDHW27PT... ⚠ No plans
+[40/179] B07NL5Y6CL... ⚠ No plans
+[41/179] B08DTXV6J4... ✓ 2 plan(s)
+[42/179] B0B6W6Y4T7... ⚠ No plans
+[43/179] B0DJRCCPMB... ✓ 3 plan(s)
+[44/179] B0FMFQR3RR... ✓ 3 plan(s)
+[45/179] B0BC22CV7W... ⚠ No plans
+[46/179] B0D2P57KZB... ✓ 3 plan(s)
+[47/179] B0DZ6Y35YX... ✓ 2 plan(s)
+[48/179] B0D2TSY8WM... ✓ 3 plan(s)
+[49/179] B0CCYHCDZ9... ✓ 3 plan(s)
+[50/179] B0B6W6Y4T7... ⚠ No plans
+[51/179] B0FMFQR3RR... ✓ 3 plan(s)
+[52/179] B0BC22CV7W... ✓ 3 plan(s)
+[53/179] B0DZ6Y35YX... ✓ 2 plan(s)
+[54/179] B09GB3K3QL... ⚠ No plans
+[55/179] B0D2TSY8WM... ✓ 3 plan(s)
+[56/179] B0DMP35VQZ... ✓ 2 plan(s)
+[57/179] B0D2P57KZB... ✓ 3 plan(s)
+[58/179] B0CCYHCDZ9... ✓ 3 plan(s)
+[59/179] B0CRHMC7ZJ... ✓ 3 plan(s)
+[60/179] B0C1FT8NG1... ✓ 2 plan(s)
+[61/179] B0D6W7R8HN... ✓ 3 plan(s)
+[62/179] B0BM4V811W... ⚠ No plans
+[63/179] B0DRFPSD7L... ✓ 2 plan(s)
+[64/179] B0DZ6ZKL94... ✓ 2 plan(s)
+[65/179] B0F4QN8L6G... ✓ 3 plan(s)
+[66/179] B0CCVSC2CF... ⚠ No plans
+[67/179] B0BM4ZHX3W... ✓ 3 plan(s)
+[68/179] B07VQ89LR4... ⚠ No plans
+[69/179] B0DH2YHCCT... ⚠ No plans
+[70/179] B083471XNX... ⚠ No plans
+[71/179] B0CMXNTWJT... ✓ 2 plan(s)
+[72/179] B0CM68R13T... ✓ 3 plan(s)
+[73/179] B0CMTVGRFC... ✓ 2 plan(s)
+[74/179] B0BZW7DVR9... ✓ 3 plan(s)
+[75/179] B0DRFRSQGG... ✓ 2 plan(s)
+[76/179] B08K3PK3LR... ✓ 2 plan(s)
+[77/179] B0DH2939TZ... ✓ 3 plan(s)
+[78/179] B0CQ55Z6MY... ⚠ No plans
+[79/179] B0CMV4Q3LQ... ⚠ No plans
+[80/179] B0C96C8BJ3... ✓ 2 plan(s)
+[81/179] B0CB13FW14... ⚠ No plans
+[82/179] B0F4KTR7G6... ✓ 3 plan(s)
+[83/179] B0CZNWFVTY... ⚠ No plans
+[84/179] B0BS6TBHND... ✓ 3 plan(s)
+[85/179] B0CMZWG4DM... ✓ 2 plan(s)
+[86/179] B0DF5VRG4Y... ✓ 2 plan(s)
+[87/179] B07MR9Z17N... ⚠ No plans
+[88/179] B0DSSY8RT4... ✓ 1 plan(s)
+[89/179] B09HQWKL5V... ⚠ No plans
+[90/179] B0CY4PDZ9T... ⚠ No plans
+[91/179] B0D66ZG4WZ... ✓ 2 plan(s)
+[92/179] B0CZNX1X6C... ⚠ No plans
+[93/179] B0989PN4G9... ⚠ No plans
+[94/179] B0CLVLVNRK... ⚠ No plans
+[95/179] B0BC1XVR4R... ✓ 2 plan(s)
+[96/179] B01DKMS998... ⚠ No plans
+[97/179] B0DG5YCMC1... ⚠ No plans
+[98/179] B0BC1XVR4R... ✓ 2 plan(s)
+[99/179] B01DKMS998... ⚠ No plans
+[100/179] B0DG5YCMC1... ✓ 2 plan(s)
+[101/179] B0CLVLVNRK... ⚠ No plans
+[102/179] B0DTK4K3J6... ✓ 3 plan(s)
+[103/179] B0FM8GYZR9... ✓ 3 plan(s)
+[104/179] B0CZNWRWV7... ⚠ No plans
+[105/179] B09GB3K18S... ⚠ No plans
+[106/179] B0CZNWWD47... ⚠ No plans
+[107/179] B09JSBCPW1... ✓ 2 plan(s)
+[108/179] B0D3VJ7FXG... ✓ 3 plan(s)
+[109/179] B0DT9716S2... ✓ 2 plan(s)
+[110/179] B0F67RGF5V... ⚠ No plans
+[111/179] B09PV6ZY5V... ✓ 2 plan(s)
+[112/179] B0D66Z5FDJ... ✓ 2 plan(s)
+[113/179] B0CMV4FMCW... ⚠ No plans
+[114/179] B0F8RDJZYX... ✓ 3 plan(s)
+[115/179] B098SWZ33X... ⚠ No plans
+[116/179] B0CZNXWYJW... ⚠ No plans
+[117/179] B09NDSB7JK... ✓ 2 plan(s)
+[118/179] B0CZNXKQD7... ⚠ No plans
+[119/179] B08X15K5VH... ⚠ No plans
+[120/179] B0CY5BJV2H... ⚠ No plans
+[121/179] B0CTMKDDJV... ✓ 3 plan(s)
+[122/179] B09NDSB7JK... ✓ 2 plan(s)
+[123/179] B0CZNXWYJW... ⚠ No plans
+[124/179] B0CZNXKQD7... ⚠ No plans
+[125/179] B08X15K5VH... ⚠ No plans
+[126/179] B0CTMKDDJV... ✓ 3 plan(s)
+[127/179] B08CVZCXPD... ✓ 3 plan(s)
+[128/179] B0CLS45FXK... ✓ 2 plan(s)
+[129/179] B09K6GFRG8... ⚠ No plans
+[130/179] B09VGH1P6F... ⚠ No plans
+[131/179] B09QCSMDM7... ⚠ No plans
+[132/179] B09P66G6WM... ⚠ No plans
+[133/179] B09MW3DQS9... ✓ 3 plan(s)
+[134/179] B098SX2V95... ⚠ No plans
+[135/179] B0B56Z1SNS... ⚠ No plans
+[136/179] B08X1FMC6K... ⚠ No plans
+[137/179] B09P654T53... ⚠ No plans
+[138/179] B0BP817FQT... ✓ 3 plan(s)
+[139/179] B0C9X49YVK... ⚠ No plans
+[140/179] B0CB1DP3X9... ⚠ No plans
+[141/179] B0CB1GCYVW... ✓ 3 plan(s)
+[142/179] B09XTR18LQ... ✓ 2 plan(s)
+[143/179] B0F8HP55FL... ⚠ No plans
+[144/179] B0D7VQP7X1... ⚠ No plans
+[145/179] B0CLVLB1QG... ✓ 2 plan(s)
+[146/179] B0BXSCRTBW... ✓ 3 plan(s)
+[147/179] B0CMTVM7JX... ⚠ No plans
+[148/179] B0C9XBBHJ6... ⚠ No plans
+[149/179] B0FCMCMVQX... ⚠ No plans
+[150/179] B0CMTWB1W3... ⚠ No plans
+[151/179] B0CMTWGDWX... ⚠ No plans
+[152/179] B0CYTD9H95... ⚠ No plans
+[153/179] B09XTXJC45... ✓ 2 plan(s)
+[154/179] B0DRFRPN7Z... ⚠ No plans
+[155/179] B0CX6BJCNB... ⚠ No plans
+[156/179] B0BCDV5ZMJ... ⚠ No plans
+[157/179] B0CMV4L34T... ⚠ No plans
+[158/179] B0BC22VFT8... ⚠ No plans
+[159/179] B0C7KQL1M8... ✓ 3 plan(s)
+[160/179] B0BTYVYJ21... ✓ 3 plan(s)
+[161/179] B0BTYYSRFT... ✓ 3 plan(s)
+[162/179] B0BT9WXSC1... ✓ 3 plan(s)
+[163/179] B0BY1Y6HFN... ⚠ No plans
+[164/179] B09XTX6N3Z... ✓ 3 plan(s)
+[165/179] B0CYWSZD25... ⚠ No plans
+[166/179] B0D8LFL4JJ... ✓ 3 plan(s)
+[167/179] B09P66B7W6... ⚠ No plans
+[168/179] B01E74YADM... ⚠ No plans
+[169/179] B0B8J8DPYF... ⚠ No plans
+[170/179] B0BN37L5KM... ✓ 3 plan(s)
+[171/179] B09W8Z1HRQ... ✓ 2 plan(s)
+[172/179] B0CLS17PND... ✓ 2 plan(s)
+[173/179] B0BC45Q14X... ⚠ No plans
+[174/179] B0CF2C83RT... ✓ 2 plan(s)
+[175/179] B0CMZVSYR4... ✓ 2 plan(s)
+[176/179] B0CMTXVGZG... ⚠ No plans
+[177/179] B0CK5T6NGQ... ⚠ No plans
+[178/179] B0C1VSRND1... ✓ 3 plan(s)
+[179/179] B09Y1QN5TM... ⚠ No plans
+
+================================================================================
+✅ EXTRACTION COMPLETE!
+================================================================================
+
+Products processed: 179
+Products with plans: 101
+Total protection plans found: 262
+
+✓ Saved to: godrej_with_plans_20251029_033212.xlsx
+✓ Copied to Desktop!
+================================================================================
