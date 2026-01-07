@@ -25,7 +25,7 @@ jobs:
     
     - name: Run scraper and send email
       env:
-        EMAIL_SENDER: plansreport@gmail.com
+        EMAIL_SENDER: harshdeep.singh@zopper.com
         EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
         EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
       run: |
