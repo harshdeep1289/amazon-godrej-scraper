@@ -61,7 +61,7 @@ def send_report(
     body: Optional[str] = None,
 ) -> bool:
     sender = os.getenv("EMAIL_SENDER", "harshdeep.singh@zopper.com").strip()
-    app_password = os.getenv("EMAIL_APP_PASSWORD", "jmsy jvqy thgl hjcx").strip()
+    app_password = os.getenv("EMAIL_APP_PASSWORD", "fjii jcwf cnyd shvu").strip()
     recipients = load_recipients()
 
     if not sender or not app_password or not recipients:
