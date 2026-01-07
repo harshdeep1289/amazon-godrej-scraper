@@ -60,7 +60,7 @@ def send_report(
     subject: Optional[str] = None,
     body: Optional[str] = None,
 ) -> bool:
-    sender = os.getenv("EMAIL_SENDER", "plansreport@gmail.com").strip()
+    sender = os.getenv("EMAIL_SENDER", "harshdeep.singh@zopper.com").strip()
     app_password = os.getenv("EMAIL_APP_PASSWORD", "jmsy jvqy thgl hjcx").strip()
     recipients = load_recipients()
 
