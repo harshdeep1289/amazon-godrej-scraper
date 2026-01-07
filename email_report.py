@@ -21,7 +21,9 @@ from typing import List, Optional
 def _parse_recipients(raw: str) -> List[str]:
     if not raw:
         return []
-    # Support comma, newline, or space separated
+    # Support comma, newline, or space (including non-breaking)
+    # Replace non-breaking space \xa0 with regular space
+    raw = raw.replace("\xa0", " ")
     parts = []
     for sep in [",", "\n", " "]:
         raw = raw.replace(sep, ";")
@@ -61,7 +63,7 @@ def send_report(
     body: Optional[str] = None,
 ) -> bool:
     sender = os.getenv("EMAIL_SENDER", "harshdeep.singh@zopper.com").strip()
-    app_password = os.getenv("EMAIL_APP_PASSWORD", "fjii jcwf cnyd shvu").strip()
+    app_password = os.getenv("EMAIL_APP_PASSWORD", "fjii jcwf cnyd shvu").strip().replace(" ", "")
     recipients = load_recipients()
 
     if not sender or not app_password or not recipients:
@@ -75,7 +77,9 @@ def send_report(
     msg["To"] = ", ".join(recipients)
     msg["Subject"] = subject or f"Godrej Report {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
-    msg.set_content(body or "Automated report attached.")
+    # Force UTF-8 encoding for the body
+    content = body or "Automated report attached."
+    msg.set_content(content, charset='utf-8')
 
     # Attach file if present
     if attachment_path and os.path.exists(attachment_path):
