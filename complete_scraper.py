@@ -18,10 +18,7 @@ from email_report import send_report
 
 # Multiple user agents to rotate
 USER_AGENTS = [
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0',
 ]
 
 BASE_HEADERS = {
@@ -40,15 +37,19 @@ BASE_HEADERS = {
 # Cookie string - paste your browser cookies here after visiting Amazon
 # To get cookies: Open browser DevTools (F12) > Application/Storage > Cookies > amazon.in
 # Copy the cookie string and paste below
-COOKIE_STRING = "session-id=523-6631916-7995726; ubid-acbin=523-5593219-3573351; sst-acbin=Sst1|PQGx9nWGogqZM8waKLvkRCzwB7NsKnR0Thqnh-i0WmKIg1mbfQf5Q2Vhx0mSkYiKc7RXZOytZcabBamnmhh8AwHbd5fpsG0dV-8nMVUGocQ5Ky1OLSuONOtieI1E8iD5_8bgAhCcns6Yq_kljC0MKxVURpBfqqZhcdFdcAc6aWv0_k05776wrnMOsUXzW0GjeLp_8K1Iyduzmth3n1mBFNHION8v73B1wjuPGjSwzAlpy0tyeiBDXe8haXfpbNr7Z40Q"
+COOKIE_STRING = ""
+
+import os
 
 def make_headers():
     headers = {
         **BASE_HEADERS,
         'User-Agent': random.choice(USER_AGENTS),
     }
-    if COOKIE_STRING:
-        headers['Cookie'] = COOKIE_STRING
+    # Priority: Env Var > Hardcoded (if any)
+    cookie_val = os.getenv('AMAZON_COOKIES', COOKIE_STRING)
+    if cookie_val:
+        headers['Cookie'] = cookie_val
     return headers
 
 

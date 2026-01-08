@@ -28,6 +28,7 @@ jobs:
         EMAIL_SENDER: harshdeep.singh@zopper.com
         EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
         EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+        AMAZON_COOKIES: ${{ secrets.AMAZON_COOKIES }}
       run: |
         python3 complete_scraper.py
     
